@@ -13,7 +13,6 @@ function Home() {
       </div>
       <div className="pt-28">
         <ProductGrid />
-        <ProductGrid />
       </div>
 
       <div className="pt-28  ">

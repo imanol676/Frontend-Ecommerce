@@ -2,7 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import SearchBar from "./SearchBar";
-import { Button } from "../Button";
 
 function Navbar() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -57,11 +56,6 @@ function Navbar() {
               </a>
             </li>
           </ul>
-
-          {/* Boton de Login*/}
-          <div className=" flex items-center">
-            <Button variant={"destructive"}>Login</Button>
-          </div>
 
           {/* Mobile Menu Button */}
           <div className="md:hidden flex items-center">
